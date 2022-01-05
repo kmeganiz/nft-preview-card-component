@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/kmeganiz/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/kmeganiz/nft-preview-card-component
+- Live Site URL: https://kmeganiz.github.io/nft-preview-card-component
 
 ## My process
 
