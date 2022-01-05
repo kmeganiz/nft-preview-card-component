@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Declaring global CSS variables */
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+}
+
+body {
+    background-color: var(--main-bg);
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    min-width: 325px;
+    max-width: 350px;
+    row-gap: 1rem;
+    background-color: var(--card-bg);
+    padding: 1.5em;
+    border-radius: 15px;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+}
+
+p {
+    color: var(--soft-blue);
+    font-size: 18px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--soft-blue);
+}
+
+.cta p:first-of-type {
+    color: var(--cyan);
+}
+
+.clock {
+    margin-left: auto;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.author img {
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.card h1:hover,
+.card-price p:hover,
+.card-creator a:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: var(--cyan);
+    border-radius: 15px;
+}
+
+.overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container:hover .overlay {
+    opacity: 1.0;
+    cursor: pointer;
+}
