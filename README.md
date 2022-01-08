@@ -45,8 +45,6 @@ Users should be able to:
 - CSS Grid
 - Bootstrap 5.0
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 I am at first feeling lost on how to do it. I am trying to maximize code from Bootstrap as my company practices. But I also lost how to do it. Only know this is using card.
