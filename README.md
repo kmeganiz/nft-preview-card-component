@@ -67,7 +67,7 @@ To be honest I am looking at what others did, and copy and try. If I start do fr
 ## Author
 
 - Website - [Katherin Meganis Phang](https://kmeganiz.com/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kmeganiz)
+- Frontend Mentor - [@kmeganiz](https://www.frontendmentor.io/profile/kmeganiz)
 - Twitter - [@kmeganiz](https://twitter.com/kmeganiz)
 
 
