@@ -64,8 +64,8 @@ To be honest I am looking at what others did, and copy and try. If I start do fr
 - [Justify Content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 
 ## License
-This project is [licensed](https://choosealicense.com/no-permission/) under the terms of the [MIT license](https://choosealicense.com/licenses/mit/#suggest-this-license).
-https://github.com/kmeganiz/nft-preview-card-component/blob/main/LICENSE.txt
+This project is [licensed](https://github.com/kmeganiz/nft-preview-card-component/blob/main/LICENSE.txt) under the terms of the [MIT license](https://choosealicense.com/licenses/mit/#suggest-this-license). Why we need [licence?](https://choosealicense.com/no-permission/)
+
 
 ## Author
 
