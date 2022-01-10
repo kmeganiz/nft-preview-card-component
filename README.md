@@ -63,6 +63,9 @@ To be honest I am looking at what others did, and copy and try. If I start do fr
 - [Border Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) - here use a lot of border and border radius
 - [Justify Content](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 
+## License
+This project is [licensed](https://choosealicense.com/no-permission/) under the terms of the [MIT license](https://choosealicense.com/licenses/mit/#suggest-this-license).
+https://github.com/kmeganiz/nft-preview-card-component/blob/main/LICENSE.txt
 
 ## Author
 
