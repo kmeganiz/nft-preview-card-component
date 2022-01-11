@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-
 html {
     box-sizing: border-box;
     line-height: 1.15;
 }
-  
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+p {
+    margin: 0px;
+}
+
+
 /* Declaring global CSS variables */
+
 :root {
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
@@ -74,10 +81,10 @@ img {
     font-weight: 400;
 }
 
-.card-persona:hover::after, .card-persona:active::after {
-    background: var(--cyan)
-    center/3rem no-repeat;
-  }
+.card-persona:hover::after,
+.card-persona:active::after {
+    background: var(--cyan) center/3rem no-repeat;
+}
 
 .cta {
     display: flex;
@@ -128,9 +135,11 @@ img {
     transition: .3s ease;
     background-color: var(--cyan);
     border-radius: 15px;
+    cursor: pointer;
 }
 
-.overlay img {
+.overlay-icon {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -140,4 +149,8 @@ img {
 .container:hover .overlay {
     opacity: 0.5;
     cursor: pointer;
+}
+
+.container:hover .overlay-icon {
+    display: block;
 }
