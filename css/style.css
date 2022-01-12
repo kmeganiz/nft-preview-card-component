@@ -56,6 +56,11 @@ main {
     border-radius: 15px;
 }
 
+.card-persona:focus-visible, .card-persona:focus {
+    outline: 0.1875rem dotted #00fff7;
+    outline-offset: 0.3125rem;
+  }
+
 a {
     color: white;
     text-decoration: none;
