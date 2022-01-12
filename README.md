@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/kmeganiz/nft-preview-card-component/blob/main/Screenshot%20NFT%20Preview%20Card.jpg)
+![](https://github.com/kmeganiz/nft-preview-card-component/blob/main/screenshot_NFT_Preview_Card.jpg)
 
 
 ### Links
