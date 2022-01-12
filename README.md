@@ -56,6 +56,7 @@ Here I still have a lot of weakness, anyone can help to how to make the width of
 
 To be honest I am looking at what others did, and copy and try. If I start do from scratch I might fail.
 
+
 ### Useful resources
 
 - [:root](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) - This helped me for standardize the color, and copy what others do and try to reason why they use this
@@ -77,3 +78,9 @@ This project is [licensed](https://github.com/kmeganiz/nft-preview-card-componen
 ## Acknowledgments
 
 Thank you BikeInMan for your sharing (https://github.com/BikeInMan)
+
+
+## Updated After Received Feedback
+
+The icon resolved, my friend @Taxxx help me to wrap the text with <p> and separate the overlay from the parent. 
+I also learn about pseudo element of :focus-visible and :focus to any interactive element so if we use Tab key, we should see a light green (or blue?) outline. Thank you to @vanzasetia
